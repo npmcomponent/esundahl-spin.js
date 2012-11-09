@@ -3,7 +3,7 @@
   "repo": "esundahl/spin.js",
   "description": "component version of spin.js",
   "version": "0.0.1",
-  "keywords": ['spinner', 'loading', 'ui'],
+  "keywords": ["spinner", "loading", "ui"],
   "dependencies": {},
   "development": {},
   "license": "MIT",
