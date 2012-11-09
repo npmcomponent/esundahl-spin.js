@@ -9,6 +9,6 @@
   "license": "MIT",
   "scripts": [
     "index.js",
-    'spin.js'
+    "spin.js"
   ]
 }
