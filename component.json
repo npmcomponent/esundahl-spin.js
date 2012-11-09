@@ -1,11 +1,14 @@
 {
-  "name": "spin",
-  "version": "1.2.7",
-  "main": "./dist/spin.js",
+  "name": "spin.js",
+  "repo": "esundahl/spin.js",
+  "description": "component version of spin.js",
+  "version": "0.0.1",
+  "keywords": ['spinner', 'loading', 'ui'],
   "dependencies": {},
-  "readme": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/fgnass/spin.js.git"
-  }
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    'spin.js'
+  ]
 }
