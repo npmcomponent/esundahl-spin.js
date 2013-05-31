@@ -140,6 +140,7 @@
   var Spinner = function Spinner(o) {
     if (!this.spin) return new Spinner(o)
     this.opts = merge(o || {}, Spinner.defaults, defaults)
+    this.spinning = false;
   }
 
   Spinner.defaults = {}
@@ -147,6 +148,8 @@
   merge(Spinner.prototype, {
     spin: function(target) {
       this.stop()
+      this.spinning = true;
+
       var self = this
         , o = self.opts
         , el = self.el = css(createEl(0, {className: o.className}), {position: o.position, width: 0, zIndex: o.zIndex})
@@ -188,6 +191,8 @@
     },
 
     stop: function() {
+      this.spinning = false;
+
       var el = this.el
       if (el) {
         clearTimeout(this.timeout)
