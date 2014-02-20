@@ -1,0 +1,12 @@
+{
+  "name": "esundahl-spin.js",
+  "description": "component version of spin.js",
+  "version": "0.0.1",
+  "keywords": [
+    "spinner",
+    "loading",
+    "ui"
+  ],
+  "dependencies": {},
+  "license": "MIT"
+}
